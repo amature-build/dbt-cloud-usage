@@ -21,6 +21,7 @@ models:
                 - fail
 
       - name: payment_method
+        description: "{{ doc('payment_status') }}"
         tests: 
           - accepted_values:
               values:
